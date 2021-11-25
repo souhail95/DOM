@@ -1,0 +1,228 @@
+body{
+    text-align: center;
+    background-color: rgb(9, 9, 90);
+    z-index: 3;
+    position: absolute;
+}
+.shop-item-button{
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 13px;
+    border-radius: 4px;
+    border-color:#3d83df ;
+    height:30px;
+    width:104px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 10px;
+    font-family: arial ;
+    font-weight: bold;
+    color:white;
+    background-color:#3d83df ;
+    cursor:pointer;
+}
+
+.shop-item{
+    display:inline-flex;
+    flex-direction: column;
+    margin-top:15px;
+    margin-bottom:15px;
+    border-radius: 6px 6px 6px 6px;
+    border:1px solid whitesmoke;
+    background-color: white;
+    width: 310px;
+    height: 340px;
+    transform:translateX(0px);
+    transition: 0.2s all;
+    cursor:pointer;
+    position:relative;
+    z-index: 0;
+}
+.shop-item:hover{
+    box-shadow: 6px 6px 30px 30px whitesmoke;
+    transform:translateX(0px);
+}
+.content-section{
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.shop-item-image{
+    width: 310px;
+    height: 280px;
+}
+::selection{
+    background-color: rgb(0, 204, 177);
+    color: white;
+}
+.shop-item-price{
+    font-size: 15px;
+    font-family: arial ;
+    font-weight: bold;
+    margin-right: 60px;
+}
+.shop-item-title{
+    font-size: 25px;
+    font-family: arial ;
+    font-weight: bold;
+}
+.cart-row{
+    display:flex;
+    justify-content: space-around;
+    margin-top:50px;
+    padding-top: 50px;
+    margin-right:0px;
+    margin-left:0px;
+    border:2px black dashed;
+    padding-bottom: -80px;
+    color:white;
+}
+.cart-item{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:-30px;
+    margin-right:60px;
+    display:inline-flex;
+}
+.cart-price{
+    margin-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right:80px;
+    margin-left:-130px;
+    width: 100px;
+    border: 10px  #000000;
+}
+.cart-quantity{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:-10px;
+    margin-right:-50px;
+    margin-left:-50px;
+}  
+.box{
+    border-top:black;
+}
+.cart-quantity-input{
+    width:25px;
+    height:25px;
+}
+.cart-item-title{
+    padding-bottom:30px;
+    margin-top: 32px;
+    margin-left: 10px;
+    width:170px;
+    border: 10px  black;
+}
+.box1{
+    display:flex;
+    justify-content: space-around;
+    margin-right:10px;
+    margin-left:0px;
+    border:2px black dashed;
+    color:white;
+    font-size: 18px;
+    padding-left: 55px;
+}
+.btn-danger{
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 13px;
+    border-radius: 4px;
+    border-color:#3f4041 ;
+    height:25px;
+    width:104px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 10px;
+    font-family: arial ;
+    font-weight: bold;
+    color:white;
+    background-color:grey ;
+    cursor:pointer;
+}
+.btn-purchase{
+margin-left: 110px;
+margin-right: 100px;
+margin-top: 10px;
+margin-bottom: 13px;
+border-radius: 4px;
+border-color:#3d83df ;
+height:30px;
+width:304px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 10px;
+padding-bottom: 30px;
+font-size:20px;
+font-family: arial ;
+font-weight: bold;
+color:white;
+background-color:#3d83df ;
+cursor:pointer;
+}
+.btn1{
+    background:transparent;
+    border:none;
+    color:grey;
+}
+.minus-btn{
+    width:25px;
+    height:25px;
+    background-color: black;
+    color:blanchedalmond;
+}
+.plus-btn{
+    width:25px;
+    height:25px;
+    background-color: black;
+    color: blanchedalmond;
+}
+h1{
+    margin-top: 150px;
+    margin-bottom: 60px;
+    color: white;
+}
+.box6{
+    height: 70px;
+    width: 102.2%;
+    background-color: rgb(51, 50, 50);
+    margin-bottom: -50px; 
+    margin-top: 50px;
+    opacity: 0.87;
+    position: relative;
+    margin-left:-2%;
+
+}
+.box7{
+    height: 85px;
+    width: 102%;
+    background-color: rgb(51, 50, 50);
+    margin-bottom: 80px;
+    margin-top: -20px;
+    z-index: 5;
+    position: fixed;
+    opacity: 0.97;
+    margin-left:-2%;
+ 
+}
+header{
+    z-index: 5;
+    position: fixed;
+    opacity: 0.97;
+}
+footer{
+    position: relative;
+    opacity: 0.87;
+    width:100%;
+}
+nav{
+width:100%} 

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Shopping card </title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="shoppingcard.css" />
+<script src="https://kit.fontawesome.com/f6dcf461c1.js"  crossorigin="anonymous"></script>
+<script  src="shoppingcard.js" async></script>
+</head>
+<body>
+   <header class="box7">
+      <nav class="box7"></nav>
+   </header>
+   <h1>Different sold items</h1>
+   <section class="container content-section">
+<div class="shop-items">
+    <div class="shop-item">
+         <span class="shop-item-title"> Eurofighter-typhoon </span>
+         <img  class="shop-item-image"   src="Eurofighter_typhoon.jpg">
+         <div  class="shop-item-details">
+            <span class="shop-item-price"> $124000000 </span>
+            <button type="button" class="btn btn-primary shop-item-button"> ADD TO CARD </button>
+            <button id="btnh1" class="btn1" onclick="toggle1()"><i class="fas fa-heart"></i></button>
+         </div>
+    </div>
+    <div class="shop-item">
+        <span class="shop-item-title"> F-15 </span>
+        <img  class="shop-item-image"   src="F-15.jfif">
+        <div  class="shop-item-details">
+           <span class="shop-item-price"> $87700000 </span>
+           <button type="button" class="btn btn-primary shop-item-button"> ADD TO CARD </button>
+           <button id="btnh2" class="btn1" onclick="toggle2()"><i class="fas fa-heart"></i></button>
+        </div>
+   </div>
+   <div class="shop-item">
+       <span class="shop-item-title"> F-16 </span>
+       <img  class="shop-item-image"   src="F-16.jpeg">
+      <div  class="shop-item-details">
+       <span class="shop-item-price"> $64000000 </span>
+       <button type="button" class="btn btn-primary shop-item-button"> ADD TO CARD </button>
+       <button id="btnh3" class="btn1" onclick="toggle3()"><i class="fas fa-heart"></i></button>
+      </div>
+   </div>
+   <div class="shop-item">
+    <span class="shop-item-title"> F-22 </span>
+    <img  class="shop-item-image"   src="F-22.jpg">
+    <div  class="shop-item-details">
+       <span class="shop-item-price"> $350000000 </span>
+       <button type="button" class="btn btn-primary shop-item-button"> ADD TO CARD </button>
+       <button id="btnh4" class="btn1" onclick="toggle4()"><i class="fas fa-heart"></i></button>
+    </div>
+   </div> 
+   <div class="shop-item">
+      <span class="shop-item-title"> F-117 </span>
+      <img  class="shop-item-image"   src="F-117.jpg">
+      <div  class="shop-item-details">
+         <span class="shop-item-price"> $2100000000 </span>
+         <button type="button" class="btn btn-primary shop-item-button"> ADD TO CARD </button>
+         <button id="btnh5" class="btn1" onclick="toggle5()"><i class="fas fa-heart"></i></button>
+      </div>
+     </div> 
+     <div class="shop-item">
+      <span class="shop-item-title"> Mirage </span>
+      <img  class="shop-item-image"   src="Mirage.jpg">
+      <div  class="shop-item-details">
+         <span class="shop-item-price"> $23000000 </span>
+         <button type="button" class="btn btn-primary shop-item-button"> ADD TO CARD </button>
+         <button id="btnh6" class="btn1" onclick="toggle6()"><i class="fas fa-heart"></i></button>
+      </div>
+     </div>
+     <div class="shop-item">
+      <span class="shop-item-title"> Rafale </span>
+      <img  class="shop-item-image"   src="Rafale.jpg">
+      <div  class="shop-item-details">
+         <span class="shop-item-price"> $115000000 </span>
+         <button type="button" class="btn btn-primary shop-item-button"> ADD TO CARD </button>
+         <button id="btnh7" class="btn1" onclick="toggle7()"><i class="fas fa-heart"></i></button>
+      </div>
+     </div> 
+     <div class="shop-item">
+      <span class="shop-item-title"> F-35 </span>
+      <img  class="shop-item-image"   src="F-35.jpg">
+      <div  class="shop-item-details">
+         <span class="shop-item-price"> $135800000 </span>
+         <button type="button" class="btn btn-primary shop-item-button"> ADD TO CARD </button>
+         <button id="btnh8" class="btn1" onclick="toggle8()"><i class="fas fa-heart"></i></button>
+      </div>
+     </div>
+     <div class="shop-item">
+      <span class="shop-item-title"> Su-35 </span>
+      <img  class="shop-item-image"   src="Su-35.png">
+      <div  class="shop-item-details">
+         <span class="shop-item-price"> $85000000 </span>
+         <button type="button" class="btn btn-primary shop-item-button"> ADD TO CARD </button>
+         <button id="btnh9" class="btn1" onclick="toggle9()"><i class="fas fa-heart"></i></button>
+      </div>
+     </div>
+     <script>
+      var btnvar1 = document.getElementById('btnh1');
+      function toggle1(){
+           if(btnvar1.style.color=="red"){
+              btnvar1.style.color="grey";
+           }
+          else{
+             btnvar1.style.color="red";
+          }
+      }
+      var btnvar2 = document.getElementById('btnh2');
+      function toggle2(){
+           if(btnvar2.style.color=="red"){
+              btnvar2.style.color="grey";
+           }
+          else{
+             btnvar2.style.color="red";
+          }
+      }
+      var btnvar3 = document.getElementById('btnh3');
+      function toggle3(){
+           if(btnvar3.style.color=="red"){
+              btnvar3.style.color="grey";
+           }
+          else{
+             btnvar3.style.color="red";
+          }
+      }
+      var btnvar4 = document.getElementById('btnh4');
+      function toggle4(){
+           if(btnvar4.style.color=="red"){
+              btnvar4.style.color="grey";
+           }
+          else{
+             btnvar4.style.color="red";
+          }
+      }
+      var btnvar5 = document.getElementById('btnh5');
+      function toggle5(){
+           if(btnvar5.style.color=="red"){
+              btnvar5.style.color="grey";
+           }
+          else{
+             btnvar5.style.color="red";
+          }
+      }
+      var btnvar6 = document.getElementById('btnh6');
+      function toggle6(){
+           if(btnvar6.style.color=="red"){
+              btnvar6.style.color="grey";
+           }
+          else{
+             btnvar6.style.color="red";
+          }
+      }
+      var btnvar7 = document.getElementById('btnh7');
+      function toggle7(){
+           if(btnvar7.style.color=="red"){
+              btnvar7.style.color="grey";
+           }
+          else{
+             btnvar7.style.color="red";
+          }
+      }
+      var btnvar8 = document.getElementById('btnh8');
+      function toggle8(){
+           if(btnvar8.style.color=="red"){
+              btnvar8.style.color="grey";
+           }
+          else{
+             btnvar8.style.color="red";
+          }
+      }
+      var btnvar9 = document.getElementById('btnh9');
+      function toggle9(){
+           if(btnvar9.style.color=="red"){
+              btnvar9.style.color="grey";
+           }
+          else{
+             btnvar9.style.color="red";
+          }
+      }
+    </script>
+</div>
+</section>
+<section class="container content-section">
+<h2 class="section-header" style="color:white"> Mohamed ben Salman's shopping card </h2>
+<div class="box1">
+      <span> ITEM </span>
+      <span > PRICE </span>
+      <span > QUANTITY </span>
+</div>
+<div class="cart-items">
+</div>
+<hr color="black">
+<div class="cart-total">
+<strong class="cart-total-title" style="color:white">Total</strong></br>
+<span class="cart-total-price" style="color:white">$0</span>
+</div>
+<button type="button" class="btn btn-primary btn-purchase"> PURCHASE </button>
+</section>
+<footer class="box6">
+   <nav class="box6"></nav>
+</footer>
+</body>
+</html>
